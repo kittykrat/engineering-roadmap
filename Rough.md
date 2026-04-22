@@ -15,12 +15,15 @@ KQL stands for Kusto Query Language. Exploring your data and discovering pattern
 
 KQL queries follow a very standard structure. This first question is to determine what table has the data we are looking for. Next, we will then filerting the data. A good pattern is to ask what we are looking for. Next, we will then start filtering the data. A good pattern is to ask what we are looking for and when we are looking for it. Filtering based on time ranges is a great way to speed up your queries becuase you'll often be parsing a lot of data. This will be covered in "Time Operators" later in this chapter.
 
+Now that we have our data, what do we want to do with it? Often, we are trying to summarize the content of the query. There are many ways we can do that, which we'll cover throughout this book. Next, how do we want to order the results, or do we want to order it all? Largest to smallest? Least to most? Finally, we decide what data we want displayed in the results. The flow will look like this:
 
-
-
-
-
-
+```
+TableName
+| filtering data
+| aggregating data
+| ordering data
+| modify column output
+```
 
 
 
