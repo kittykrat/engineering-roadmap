@@ -11,7 +11,9 @@
 
 KQL stands for Kusto Query Language. Exploring your data and discovering patterns, identifying anomalies and outliers is what is does best. The data is stored in different tables. In these tables, there are columns where the data actually resides. This is very similar to SQL. KQL was also designed and developed to take advantage of cloud computing through custering and scaling compute. You can process enormous amounts of data very quickly. This is accomplished through read-only queries, which are case-sensitive, including table names, table column names, operators, and functions. You can turn this data into actionable insights by filtering, analyzing, and preparing data.
 
+- ### The KQL Query Structure
 
+KQL queries follow a very standard structure. This first question is to determine what table has the data we are looking for. Next, we will then filerting the data. A good pattern is to ask what we are looking for. Next, we will then start filtering the data. A good pattern is to ask what we are looking for and when we are looking for it. Filtering based on time ranges is a great way to speed up your queries becuase you'll often be parsing a lot of data. This will be covered in "Time Operators" later in this chapter.
 
 
 
