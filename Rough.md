@@ -6,7 +6,24 @@
 > List all log sources:
 > https://github.com/rod-trent/SentinelKQL/blob/master/WorkspacesAndTables.txt
 
-Microsoft Entra ID supports the following log categories:
+
+- ### What is KQL
+
+KQL stands for Kusto Query Language. Exploring your data and discovering patterns, identifying anomalies and outliers is what is does best. The data is stored in different tables. In these tables, there are columns where the data actually resides. This is very similar to SQL. KQL was also designed and developed to take advantage of cloud computing through custering and scaling compute. You can process enormous amounts of data very quickly. This is accomplished through read-only queries, which are case-sensitive, including table names, table column names, operators, and functions. You can turn this data into actionable insights by filtering, analyzing, and preparing data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+- ### Microsoft Entra ID supports the following log categories:
 
 - **AuditLogs:** These Entra ID audit logs contain changes to the object state in the directory. Examples of this would be a new license applied to a user object, registering for Self Service Password Reset, or an updated attribute on the user object. This category also includes changes to applications and groups.
 
