@@ -1,20 +1,20 @@
 # Write your first query with Kusto Query Language
 
-## Example scenario
+## What's a Kusto query?
 
-Suppose you're a data analyst with a passion for meteorological data. You want to use KQL to explore a dataset for answers to basic questions about the kinds and locations of storms in the United States.
+A Kusto query is a read-only request to process data and return results. The request is stated in plain text that's easy to read, author, and automate. A Kusto query has one or more query statements and returns data in a tabular or graph format.
 
-## What will we learn?
+Tabular query satements contain zero or more _operators_. Eeach operator starts with a tabular input and returns a tabular output. Operators are sequenced by a pipe (`|`). Data flows-or is _piped_-from one operator to the next. The data is filtered or manipulated at each step and fed into the following step.
 
-You'll write simple queries in KQL to explore and gain insights from a sample dataset. You'll learn how to:
+Think of it like a funnel, where you start out with an entire data table. Each time the data passes through another operator, it's filtered, rearranged, or summarized. Because the piping of information from one operator to another is sequential, the query's operator order is important. At the end of the funnel, you're left with a refined output.
 
-- Count the number of records by using the `count` operator.
-- Return a specific number or rows by using the `take` operator.
-- Select columns to return by using the `project` operator.
-- Filter data by using the `where` operator.
-- Reorder returned data by using the `sort` operator.
-- Build queries by using multiple operators.
+These operators are KQL-specific, although they often have parallels to SQL or other languages.
 
-## What's the main goal?
+Let's look at an example query:
 
-By the end of this session, you'll be able to write a query with the most commonly used operators.
+```
+StormEvents
+| where StartTime between (datatime(2007-11-01) .. datetime(2007-12-01))
+| where State == "FLORIDA"
+| count
+```
