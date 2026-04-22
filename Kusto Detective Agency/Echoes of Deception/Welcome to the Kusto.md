@@ -4,7 +4,7 @@ Script:
 
 ```
 DetectiveCases
-| where Timestamp between (datetime(2022-01-01)..datetime(2022-12-31))
+| where Timestamp between (datetime(2022-01-01)..datetime(2022-12-31 23:59:59.9))
 | extend Properties
 | where EventType == 'CaseOpened'
 | extend bountyInt = toint(Properties.Bounty)
@@ -23,7 +23,6 @@ DetectiveCases
 ) on CaseId
 | where DetectiveId2 == DetectiveId1
 | summarize arg_min(Timestamp, *) by CaseId2
-//| where DetectiveId == 'kvc61f0b891ee26195970a'
 | summarize totalBounty = sum(bountyInt) by DetectiveId2
 | sort by totalBounty desc
 ```
