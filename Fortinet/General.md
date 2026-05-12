@@ -1,21 +1,9 @@
 # FortiSIEM Parser Course
 
-### FortiSIEM Parsers
+<img width="400" alt="{5E61D4D3-A0C9-4380-ACD6-8C31197AB1A9}" src="https://github.com/user-attachments/assets/dcce3c2f-17da-4b10-92af-5a5459de987e" />
 
-- FortiSIEM uses XML-based parser framework to parse events, means to teach the system to understand the incoming data.
-
-- Examples of what a parser does:
-  - Recognizes the type of device or application that sends the data and determines which parser to use.
-  - Extracts and stores data from specific fields in the log source (Source IP, Source Port, Malware Name, File Name, and so on) as attributes.
-  - Maps each incoming log to an event type.
- 
-- If no parser exists for an incoming log, FortSIEM stores the information but doesn't understand how to interpret the data; therefore, FortiSIEM creates what is called as an Unknown Event.
-- You can still query these events using the raw event message attribute
-
-
-### Terminology Reminder
-
-- FortiSIEM parses incoming data and performs normalization, categorization and enrichment before storage.
+<img width="400" alt="{33652975-9785-4F01-8AED-1F9F1F26D2E6}" src="https://github.com/user-attachments/assets/e832b90f-fd68-4b31-b272-c268137e08dc" />
 
 <img width="400" alt="{8486DC16-9A66-4B5A-8B82-4AC90442D984}" src="https://github.com/user-attachments/assets/e62fd591-753e-4859-a190-04a62a734f81" />
 
+<img width="400" alt="{06B29755-22CC-4468-986F-802DE9C8E54E}" src="https://github.com/user-attachments/assets/f536acb5-9fb2-40fd-a6eb-a2b02cc0dd89" />
