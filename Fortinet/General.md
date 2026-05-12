@@ -1,5 +1,7 @@
 # FortiSIEM Parser Course
 
+## Parser Basics
+
 - <img width="400" alt="{5E61D4D3-A0C9-4380-ACD6-8C31197AB1A9}" src="https://github.com/user-attachments/assets/dcce3c2f-17da-4b10-92af-5a5459de987e" />
 
 - <img width="400" alt="{33652975-9785-4F01-8AED-1F9F1F26D2E6}" src="https://github.com/user-attachments/assets/e832b90f-fd68-4b31-b272-c268137e08dc" />
