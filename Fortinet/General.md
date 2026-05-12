@@ -12,3 +12,5 @@
 
 - <img width="400" alt="{06B29755-22CC-4468-986F-802DE9C8E54E}" src="https://github.com/kittykrat/engineering-roadmap/blob/main/Fortinet/Images/parse5.png" />
 
+## Log Types
+
