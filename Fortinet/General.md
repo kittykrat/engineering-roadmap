@@ -8,5 +8,5 @@
 
 - <img width="400" alt="{06B29755-22CC-4468-986F-802DE9C8E54E}" src="https://github.com/user-attachments/assets/f536acb5-9fb2-40fd-a6eb-a2b02cc0dd89" />
 
-- ![Uploading {21B4ECD8-B209-4830-83D9-0D744AFF820E}.png…]()
+- <img width="400" alt="{06B29755-22CC-4468-986F-802DE9C8E54E}" src="https://github.com/kittykrat/engineering-roadmap/blob/main/Fortinet/Images/parse5.png" />
 
